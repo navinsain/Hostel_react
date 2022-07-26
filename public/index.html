@@ -7,37 +7,361 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
-    />
+      content="Web site created using create-react-app"/>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <title>mera room</title>
+
+    <!-- <style>
+      .owl-nav {
+      display: none;
+      }
+      </style>
+  
+  <style>
+    .carousel-item img {
+    width: 100%;
+    height: 400px;
+    margin: 0px 2px;
+    }
+    .carousel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    }
+    .carousel-inner {
+    margin-left: 0;
+    }
+    </style>
+  
+  <style>
+    .carousel-item img {
+    width: 100%;
+    height: 400px;
+    margin: 0px 2px;
+    }
+    .carousel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    }
+    .carousel-inner {
+    margin-left: 0;
+    }
+    </style>
+  
+  <style>
+    .promotionalslider_wrapper.slick-initialized.slick-slider button {
+    display: none !important;
+    }
+    .owl-nav {
+    display: none;
+    }
+    </style>
+  
+  <style>
+    .carousel-item img {
+    width: 96%;
+    height: 225px;
+    }
+    .hostel_contant {
+  
+  width: 100%;
+  }
+    </style>
+  
+  <style>
+    button.owl-prev {
+    background: white !important;
+    margin: 10px !important;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    outline: none;
+    }
+    button.owl-next {
+    background: white !important;
+    margin: 10px !important;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    outline: none;
+    right: 0 !important;
+    position: absolute;
+    }
+    .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    top: 125px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    }
+    </style>
+  
+  <style>
+    button.owl-prev {
+    background: white !important;
+    margin: 10px !important;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    outline: none;
+    }
+    button.owl-next {
+    background: white !important;
+    margin: 10px !important;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    outline: none;
+    right: 0 !important;
+    position: absolute;
+    }
+    .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    top: 140px;
+    display: block !important;
+    position: absolute;
+    width: 100%;
+    }
+    </style>
+  
+  <style>
+    footer.footer.mt-5{
+    margin-top: 0 !important;
+    }
+    </style>
+  
+  <style>
+    footer.footer.mt-5{
+    margin-top: 0 !important;
+    }
+    </style>
+  
+  <style>
+    footer.footer.mt-5{
+    margin-top: 0 !important;
+    }
+    </style>
+  
+  <style>
+    footer.footer.mt-5{
+       margin-top: 0 !important;
+    }
+  </style> -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/3.3jquery.min.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+
+<script>
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+  margin: 20,
+  loop: true,
+  autoplay:true,
+  autoplayTimeout:3000,
+  responsiveClass: true,
+  nav: true,
+  responsive: {
+  0: {
+  items: 2
+  },
+  600: {
+  items: 3
+  },
+  1000: {
+  items: 6
+  }
+  }
+  })
+  </script>
+
+<script>let question = document.querySelectorAll(".question");
+
+  question.forEach(question => {
+    question.addEventListener("click", event => {
+      const active = document.querySelector(".question.active");
+      if(active && active !== question ) {
+        active.classList.toggle("active");
+        active.nextElementSibling.style.maxHeight = 0;
+      }
+      question.classList.toggle("active");
+      const answer = question.nextElementSibling;
+      if(question.classList.contains("active")){
+        answer.style.maxHeight = answer.scrollHeight + "px";
+      } else {
+        answer.style.maxHeight = 0;
+      }
+    })
+  })
+  </script>
+
+<script>
+  $(document).ready(function(){
+  $('.promotionalslider_wrapper').slick({
+  infinite: false,
+  slidesToShow: 2,
+  autoplay:true,
+  autoplayTimeout:3000,
+  responsiveClass: true,
+  responsive: [
+  {
+  breakpoint: 768,
+  settings: {
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  }
+  }
+  ]
+  });
+  });
+  </script>
+
+<script>
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+  margin: 20,
+  loop: true,
+  autoplay:true,
+  autoplayTimeout:3000,
+  responsiveClass: true,
+  nav: true,
+  responsive: {
+  0: {
+  items: 2
+  },
+  600: {
+  items: 3
+  },
+  1000: {
+  items: 6
+  }
+  }
+  })
+  </script>
+
+<script>
+  $('#filter_ican').click(function(event) {
+    $("#left").toggle();
+  });
+  </script>
+  
+  
+  <script >
+  let examle =  '■■■■■■■■■■□□□□□□□□□□;';
+  let slider = document.getElementById("range");
+  let pbar   = Array(20).fill('□', 0, 20);
+  let div    = document.getElementById('d1');
+  div.textContent = pbar.join("");
+  pbar.fill('■', 0, 10);
+  div.textContent = pbar.join("");
+  // ===========================================
+  function chg( amt ){
+  pbar.fill('□', 0, 20);
+  pbar.fill('■', 0, amt);
+  div.textContent = pbar.join("");
+  }
+  slider.oninput = function() {
+  document.getElementById('d1').innerHTML = this.value;
+  chg( this.value );
+  }
+  </script>
+
+<script>
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+  margin: 10,
+  loop: true,
+  // autoplay:true,
+  autoplayTimeout:4000,
+  responsiveClass: true,
+  nav: true,
+  responsive: {
+  0: {
+  items: 3
+  },
+  600: {
+  items: 3
+  },
+  1000: {
+  items: 4
+  }
+  }
+  })
+  </script>
+
+<script>
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+  margin: 10,
+  loop: true,
+  // autoplay:true,
+  autoplayTimeout:4000,
+  responsiveClass: true,
+  nav: true,
+  responsive: {
+  0: {
+  items: 2
+  },
+  600: {
+  items: 3
+  },
+  1000: {
+  items: 4
+  }
+  }
+  })
+  </script>
+
+<script>$('.filters ul li').click(function(){
+  $('.filters ul li').removeClass('active');
+  $(this).addClass('active');
+  var data = $(this).attr('data-filter');
+  $grid.isotope({
+  filter: data
+  })
+  });
+  </script>
+
+<script>
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+  margin: 20,
+  loop: true,
+  autoplay:true,
+  autoplayTimeout:3000,
+  responsiveClass: true,
+  nav: true,
+  
+  responsive: {
+  0: {
+  items: 1
+  },
+  600: {
+  items: 2
+  },
+  1000: {
+  items: 3
+  }
+  }
+  })
+  </script>
 </html>

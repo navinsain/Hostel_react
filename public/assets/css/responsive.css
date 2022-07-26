@@ -1,0 +1,724 @@
+/*// Extra large devices large desktops, 1200px and up*/
+@media (max-width: 1199.98px) {
+
+    .top_li {
+        padding: 0px 6px;
+    }
+    #app .form-group label{
+        top:20px;
+    }
+    img.cities_ican{
+        top:48px;
+    }
+    img.cities_ican1{
+        top:48px;
+    }
+    .or_img {
+    left: 51.6%;
+    top: 48px;
+}
+
+}
+
+@media (max-width: 991.98px) {
+    
+
+
+    div#navbarSupportedContent {
+        z-index: 9999;
+        position: absolute;
+        background-color: white;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        top: 95px;
+        left: 0;
+    }
+    
+    
+    #app .form-group label{
+        top:0px;
+    }
+    img.cities_ican{
+        top:38px;
+    }
+    img.cities_ican1{
+        top:38px;
+    }
+
+    .top_li.li {
+    border: none;
+} 
+
+
+
+    .right_text_wel {
+        padding: 50px 20px 50px;
+    }
+section.list_owl .owl-nav {
+    top: 130px;
+}
+
+    button.book.active {
+        font-size: 15px;
+        line-height: 46px;
+    }
+
+    button.book {
+        line-height: 46px;
+        font-size: 15px;
+    }
+
+    h3.book_Payment::before {
+        display: none;
+    }
+
+    h3.book_Payment::after {
+        display: none;
+    }
+
+    .singalbds::before {
+        display: none;
+    }
+
+    .innarbar {
+        display: block;
+    }
+
+    button.progbtn {
+        margin: 0;
+    }
+
+
+
+
+
+    .nav-pills-custom .nav-link {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+    }
+
+    .outer_listings {
+        display: block;
+    }
+
+    .hostelcard img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .btns_biods {
+        display: flex;
+        width: 100%;
+    }
+
+    .top_hedbtn {
+        /*display: block;*/
+    }
+
+    button.books.active {
+        font-size: 15px;
+        line-height: 46px;
+    }
+    button.books {
+        font-size: 15px;
+        line-height: 46px;
+    }
+
+
+img.or_img {display: none;}
+
+    ul.navbar-nav.ml-auto.mb-2.mb-lg-0 {
+        padding: 25px;
+        box-shadow: 0px 13px 20px 0px #e6e6e6;
+    }
+    .top_li {
+    border: none;
+    border-bottom: solid 1px #ccc;
+    padding: 10px;
+}
+
+}
+
+@media (max-width: 767.98px) {
+    
+    .app {
+    padding-left: 0 !important;
+}
+img.cities_ican{
+    left:10px;
+}
+
+    img.maping {display: none;}
+
+h1.popu_title p {
+    font-size: 14px;
+}
+h1.popu_title{margin-bottom:9px;}
+
+.pries ul li{display:block;}
+
+.btns_bio{
+font-size: 13px;
+}
+
+.hostel_contant {
+    padding: 3px 10px 2px;
+     width: 100%; 
+}
+
+h6.Girl_Hostel i
+{font-size: 16px;}
+.btns_bio a {
+    margin-bottom: 5px;
+    margin-left: 0;
+}
+
+.promotionalslider_single img {
+    width: 100%;
+    max-height: 360px;
+}
+
+    img.cities_ican1 {
+        left: 12px;
+    }
+
+    .ican_inst img {
+
+        width: 70px;
+    }
+
+
+    #app input#location {
+        padding-left: 45px;
+    }
+
+section.main_form11 .pl-0 {
+    padding: 0 !important;
+}
+
+section.main_form .pl-0 {
+    padding: 0 !important;
+}
+
+    button.institute {
+        padding: 0;
+    }
+
+    button.finds {
+        width: 100%;
+    }
+
+    .ab_img_box img {
+        margin-bottom: 20px;
+    }
+
+    .contact_det p {
+        width: 100%;
+        padding: 20px 0px 0px;
+    }
+
+    .outer_intitute {
+        display: block;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .ican_inst {
+        margin-bottom: 10px;
+    }
+
+    .select_inti select#citySelect {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+
+    .question {
+        font-size: 16px;
+        padding: 20px 43px 20px 10px;
+
+    }
+
+    .fin_offers button.btn.btn-primary {
+        padding: 2px 4px;
+    }
+
+    .modal-content {
+        padding: 0;
+    }
+
+.coupond {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    background: 0;
+    border-bottom: solid 1px #ccc;
+}
+h6.cop_pr {
+    font-size: 21px;
+    width: 70px;
+}
+
+.how_it_works{padding-top:7% !important;padding-bottom:8% !important;}
+
+    .coupond h3:before {
+        display: none;
+    }
+
+.indsideimg h3 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.indsideimg h4 span {
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+h5.address_h i{vertical-align:middle;}
+
+.indsideimg p {
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+    .right_text_wel h1 {
+        font-size: 21px;
+        padding-bottom: 0px;
+        padding-top: 15px;
+    }
+
+    form.Register_sign.py-2 {
+    line-height: 0px;
+}
+a.view_btn{
+font-size:12px;
+}
+
+a.book_now
+{
+
+}
+section.list_owl .owl-nav {top:42px;}
+.top_ulbar ul li{
+font-size: 16px;
+}
+
+
+.right_text_wel p {
+    padding-top: 15px;
+    font-size: 13px;
+}
+.indsideimg img {
+    width: 130px;
+}
+
+.Mess_Photos {
+    padding: 10px 0px 0px 0px;
+}
+
+.margincss{padding-bottom:0% !important;}
+    button.Register_btn {
+        margin: 15px 0px;
+        padding: 10px;
+    }
+	
+	h3.book_Payment{margin-bottom:0%;}
+	.payment_det_box{padding: 0px 0% 10px 0px;}
+.booking_online{padding:0px 12px 5px 12px;}
+.maoing{margin-bottom:5%;}
+
+.Room_Details_box{transition:all 0.3s;}
+.Room_Details_box:hover{cursor:pointer;border:solid 2px #c00;}
+.Room_Details_box:focus{cursor:pointer;border:solid 2px #c00;}
+
+.Room_Details {padding: 20px 0px 0px 10px;}
+
+    .reach_us {
+
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .top_ulbar {
+        display: block;
+    }
+
+    .top_ulbar ul {
+        margin: 10px 0px;
+    }
+
+    .mess-box {
+        /*display: block;*/
+    }
+
+    .Mess_ln {
+        margin: 10px 0px;
+    }
+
+    .amenities {
+        width: 100%;
+        display: flex;
+    }
+
+    .btns_biods {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .outer_listings {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    header.welcome {
+        height: auto;
+    }
+
+
+
+
+section.product_slid{
+padding-bottom: 30px;
+}
+center.heding_map h6{
+font-size: 17px;
+}
+center.heding_map p {
+    font-size: 13px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+    .right_text_wel {
+        padding: 10px 10px 0px;
+        margin-bottom: 70px !important;
+        margin: 0;
+    }
+
+    .indsideimg {
+        padding: 20px 0px;
+    }
+
+    center.heding_map {
+        padding: 0px 0px 0px;
+    }
+
+    section.hostels_pg.my-5 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+        padding:33px 0px 0px 0px;
+		margin-top: 0% !important;
+    }
+
+    section.main_form11 {
+        padding: 20px;
+    }
+
+    img.Mess_Photos_img {
+        margin-bottom: 20px;
+    }
+
+    .badroom img {
+        /*height: auto;*/
+    }
+
+    section.main_form {
+        margin-top: 0;
+    }
+
+    .Filters {
+        padding: 10px 20px 0px;
+    }
+
+    .progresss {
+        margin: 30px;
+    }
+
+h6.G_Hostel {
+    font-size:16px;
+    display: flex;
+	font-weight: 700;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h6.G_Hostel i{
+    font-size:19px;
+}
+
+h5.price_it {
+  font-size: 16px;
+}
+
+.contact_hedding h6 {
+    font-size: 18px;
+}
+
+.contact_det h6 {
+    font-size: 18px;
+}
+    .roomdests h6 {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .nities h2 {
+        font-size: 18px;
+    }
+
+    .nities h6 {
+        font-size: 18px;
+    }
+
+    .nities button {
+        margin: 15px 0px 30px;
+    }
+
+    .insti_ h6 {
+        font-size: 18px;
+    }
+
+    .best_in img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Mess_Details p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .Mess_Details h3 {
+        font-size: 16px;
+    }
+
+    .Room_Details p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .Room_Details h3 {
+        font-size: 18px;
+    }
+
+    .findroom h6 {
+        font-size: 18px;
+    }
+
+    .Benefits h6 {
+
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .Benefits {
+        margin-bottom: 10px;
+    }
+
+    .roomde h6 {
+        font-size: 18px;
+    }
+
+    .roomde ul li {
+        font-size: 14px;
+    }
+
+    .redd img {
+        max-width: 210px;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+
+    img.apps101 {
+        width: 150px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    div#v-pills-tab {
+        height: auto;
+        padding-top: 20px;
+    }
+    
+.or_img {
+    display: block !important;
+    left:84%;
+    top:40px;
+}
+
+.bot {
+    margin-bottom: 8px !important;
+}
+
+    .top_desh_body {
+        padding: 20px 20px;
+        height: auto;
+    }
+
+    .ican_in {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .fillter_boxss h5 {
+        font-size: 16px;
+    }
+
+    .transactions_list .outer_intitute {
+        margin-bottom: 25px;
+    }
+
+    .hostelcard img {
+        background-size: cover;
+        width: 100%;
+        max-width: 100%;
+        max-height: 100px;
+        margin-bottom: 10px;
+    }
+
+    section.product_slid {
+        margin-top: -120px;
+    }
+	
+	h1.popu_title{align-items:baseline;}
+	.reducedown{margin-bottom:3% !important;}
+
+input#city {
+    padding: 15px;
+}
+input#location {
+    padding: 15px;
+}
+
+img.cities_ican{
+top: 20px;
+}
+
+img.cities_ican1{
+top: 20px;
+}
+
+.slick-slide{padding:1% !important;}
+
+h6.Girl_Hostel p{padding-top:1%;}
+.fa-map-marker:before{vertical-align:super;}
+h5.pries i{font-size:18px;padding-top:0%;padding-right:1%;}
+h5.pries span{padding-top:3%;}
+h5.pries{margin:6px 0px 9px 0px;}
+
+h6.Girl_Hostel p{
+font-size:13px;
+}
+
+.amenities_item p{font-size:11px;margin-bottom:0% !important;}
+.amenities_item{width:100%;}
+.outer_hostel_dettt p{text-align:justify;}
+.amenities{padding:0px 0px 0px;}
+
+h5.pries span {
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.Usefull_Links
+{margin-top:22%;padding-left:4%;}
+.playstore{margin-top:6%;padding-left:;margin-bottom:4%;}
+
+.hostel_contant h5{
+font-size:12px;
+/*text-align: cente*/r;
+}
+.Filters h6{
+font-size: 18px;
+}
+
+.btns_bio {
+    display: grid;
+    font-size: 12px;
+}
+
+div#app {
+    margin-bottom:16px;
+    padding-top: 10px;
+}
+
+
+#left{
+display: none;
+}
+
+.top_ulbar{
+padding: 0;
+}
+
+
+
+img#filter_ican {
+    width: 30px;
+    margin: 15px;
+    margin-bottom: 0;
+    display: block;
+    /*position: fixed;*/
+    bottom: 40px;
+    z-index: 999;
+}
+
+.testimonials .testi .item .profile .information p {
+    font-size: 18px;
+}
+div#v-pills-tab{
+padding: 10px 0px;
+}
+.top_desh_hedd h5 {
+    font-size: 18px;
+}
+#app input#city {
+    position: relative;
+    padding-left: 40px;
+    border-radius: 8px;
+}
+
+#app input#location {
+    position: relative;
+    padding-left: 65px;
+    border-radius: 5px;
+}
+.work_hedd h3 {font-size: 18px;}
+
+.work_hedd p{
+    padding:0% 9%;
+}
+
+#city_box{
+    margin-bottom:0 !important;
+}
+}
+
+@media (max-width: 476.98px) {
+    
+  .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+   display:none !important;   
+  }  
+
+  div#v-pills-tab a {
+    margin: 0 !important;
+    padding: 10px !important;
+}
+.nav-pills-custom .nav-link.active::after{
+top: 15px;
+}
+
+}
